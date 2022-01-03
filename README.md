@@ -32,10 +32,21 @@ Change directory into the newly created repository ("telegram-VC-bot")
 cd telegram-VC-bot
 ```
 
-Install dependencies
+### (Option 1) Install dependencies using `pip` from `requirements.txt`
 ```bash
-pipenv install
+pip install -r requirements.txt
 ```
+
+### (Option 2) Install dependencies using `Pipenv`
+```bash
+pipenv install --python python3
+```
+
+and then activate the environment,
+```bash
+pipenv shell
+```
+
 
 Open up `.env` file in a text editor/IDE of your choice and replace with your IDs and credentials.
 ```env
@@ -47,6 +58,10 @@ LOG_CHANNEL_ID=... # group you want the logs to be posted to
 LOGGER_BOT_TOKEN="..." # bot the sends the logs (the bot should be able to send in the log channel)
 ```
 
+Finally, just run `main.py`
+```
+python main.py
+```
 
 More details can be found over: [Project canban](https://github.com/TibebeJS/telegram-VC-bot/projects/1)
 
