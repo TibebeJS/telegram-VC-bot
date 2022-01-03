@@ -25,13 +25,13 @@ from os import getenv
 
 load_dotenv()
 
-api_id = getenv("API_ID")
+api_id = int(getenv("API_ID"))
 api_hash = getenv("API_HASH")
 
-GROUP_ID = getenv("GROUP_ID")  # GROUP you want to install the bot on
-LOG_CHANNEL_ID = getenv(
+GROUP_ID = int(getenv("GROUP_ID"))  # GROUP you want to install the bot on
+LOG_CHANNEL_ID = int(getenv(
     "LOG_CHANNEL_ID"
-)  # Channel where the logs are going to be sent to
+))  # Channel where the logs are going to be sent to
 
 LOGGER_BOT_TOKEN = getenv("LOGGER_BOT_TOKEN")
 
