@@ -14,7 +14,7 @@ pytgcalls = "==3.0.0.dev19"
 rsa = "==4.7.2"
 tgcalls = "==3.0.0.dev4"
 requests = "*"
-
+python-dotenv = "==0.19.2"
 
 [dev-packages]
 
