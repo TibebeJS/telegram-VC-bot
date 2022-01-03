@@ -38,8 +38,13 @@ pipenv install
 ```
 
 Open up `.env` file in a text editor/IDE of your choice and replace with your IDs and credentials.
-```envfile
+```env
+API_ID=... # you can find these values from my.telegram.org
+API_HASH="..."
 
+GROUP_ID=... # group you want to monitor
+LOG_CHANNEL_ID=... # group you want the logs to be posted to
+LOGGER_BOT_TOKEN="..." # bot the sends the logs (the bot should be able to send in the log channel)
 ```
 
 
