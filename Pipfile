@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Telethon = "==1.23.0"
+av = "==8.0.3"
+numpy = "==1.21.2"
+opencv-python-headless = "==4.5.3.56"
+pyaes = "==1.6.1"
+pyasn1 = "==0.4.8"
+pytgcalls = "==3.0.0.dev19"
+rsa = "==4.7.2"
+tgcalls = "==3.0.0.dev4"
+requests = "*"
+python-dotenv = "==0.19.2"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
